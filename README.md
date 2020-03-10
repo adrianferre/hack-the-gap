@@ -1,6 +1,6 @@
 # Sirena App simplified
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and it's a simplifications of the Sirena App for the program Hack The Gap.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and it's a simplifications of the Sirena App for the program **Hack The Gap**.
 
 ## Install for the first time
 
