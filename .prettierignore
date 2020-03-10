@@ -1,0 +1,7 @@
+# Dist
+packages/*/dist
+
+
+# Node modules
+./node_modules
+packages/*/node_modules

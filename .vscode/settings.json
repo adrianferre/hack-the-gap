@@ -1,0 +1,36 @@
+{
+  "search.exclude": {
+    // disable built-in rule
+    "**/node_modules": false,
+
+    // only exclude root node_modules
+    "node_modules": true,
+
+    ".vscode/**": true,
+
+    "build": true
+  },
+  "files.watcherExclude": {
+    // disable built-in rule
+    "**/node_modules/**": false,
+
+    // only exclude root node_modules
+    "node_modules/**": true,
+
+    "build": true
+  },
+
+  // Disable standard
+  "standard.enable": false,
+
+  // Enable eslint
+  "eslint.enable": true,
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+
+  // Disable editor lint, use eslint
+  "javascript.validate.enable": false
+}

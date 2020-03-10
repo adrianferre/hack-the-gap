@@ -1,0 +1,51 @@
+// cSpell Settings
+{
+  // Version of the setting file.  Always 0.1
+  "version": "0.1",
+  // language - current active spelling language
+  "language": "en",
+  // words - list of words to be always considered correct
+  "words": [
+    "boleto",
+    "bondi",
+    "bowser",
+    "browserslist",
+    "centauri",
+    "CUIL",
+    "CUIT",
+    "describedby",
+    "dimens",
+    "flowtype",
+    "Formik",
+    "libphonenumber",
+    "lightergray",
+    "linkify",
+    "meli",
+    "mingo",
+    "nbsp",
+    "nivo",
+    "nowrap",
+    "onclickoutside",
+    "ptypes",
+    "realtime",
+    "reselect",
+    "scroller",
+    "sirena",
+    "snackbar",
+    "spreedly",
+    "timestamps",
+    "unflatten",
+    "Unmount",
+    "wapp",
+    "whatsapp",
+    "hotjar",
+    "invoicer",
+    "lerna"
+  ]
+}
+// Version of the setting file.  Always 0.1
+// language - current active spelling language
+// words - list of words to be always considered correct
+// short for WhatsApp
+// short for Prop Types
+// short for dimensions
