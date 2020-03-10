@@ -1,16 +1,16 @@
-import ActionAssessment from '@material-ui/icons/AssessmentRounded'
-import SocialNotifications from '@material-ui/icons/NotificationsRounded'
+import DeviceHubRoundedIcon from '@material-ui/icons/DeviceHubRounded'
+import GroupWorkRoundedIcon from '@material-ui/icons/GroupWorkRounded'
 
 export default [
   {
     key: 'integrations',
-    Icon: ActionAssessment,
+    Icon: DeviceHubRoundedIcon,
     text: 'Integrations',
     pathname: '/admin/integrations'
   },
   {
     key: 'users',
-    Icon: SocialNotifications,
+    Icon: GroupWorkRoundedIcon,
     text: 'Users',
     pathname: '/admin/users'
   }

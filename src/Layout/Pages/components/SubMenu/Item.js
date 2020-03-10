@@ -4,7 +4,7 @@ import './item.css'
 import Button from '@material-ui/core/Button'
 import cs from 'classnames'
 
-function SubMenuItem({ text, selected, pathname, onClick }) {
+function SubMenuItem({ text, selected, pathname, Icon, onClick }) {
   function handleClick() {
     onClick(pathname)
   }
@@ -18,6 +18,7 @@ function SubMenuItem({ text, selected, pathname, onClick }) {
       style={{ ':hover': {} }}
       onClick={handleClick}
     >
+      <Icon classes={{ root: 'SubMenuItem-icon' }} />
       {text}
     </Button>
   )
@@ -25,6 +26,7 @@ function SubMenuItem({ text, selected, pathname, onClick }) {
 
 SubMenuItem.propTypes = {
   text: PropTypes.node.isRequired,
+  Icon: PropTypes.object.isRequired,
   pathname: PropTypes.string.isRequired,
   selected: PropTypes.bool,
   onClick: PropTypes.func.isRequired

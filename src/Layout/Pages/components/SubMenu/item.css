@@ -11,3 +11,8 @@
 .SubMenuItem-selected {
   background-color: rgba(0, 0, 0, 0.04) !important;
 }
+
+.SubMenuItem-icon {
+  color: #607d8b;
+  margin-right: 12px;
+}
