@@ -1,10 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sirena App simplified
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and it's a simplifications of the Sirena App created for the program Hack The Gap.
 
-In the project directory, you can run:
+## Install for the first time
 
-> `npm start`
+- Run `npm install` in the command line.
+
+## Run project locally
+
+- Run `npm start` in the command line.
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### External libraries used in this project
+## External libraries used in this project
 
 - [Material-UI core](https://material-ui.com/)
 - [Material-UI icons](https://material-ui.com/components/material-icons/)
