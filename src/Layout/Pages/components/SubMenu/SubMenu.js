@@ -23,8 +23,11 @@ function SubMenu({ title, menu, pathname, children, onClick }) {
 }
 
 SubMenu.propTypes = {
+  title: PropTypes.node.isRequired,
+  pathname: PropTypes.string.isRequired,
   menu: PropTypes.array,
-  children: PropTypes.node
+  children: PropTypes.node,
+  onClick: PropTypes.func.isRequired
 }
 
 export default memo(SubMenu)

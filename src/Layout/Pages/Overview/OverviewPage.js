@@ -3,7 +3,7 @@ import Page from '../components/Page'
 import AppBar from '../components/AppBar'
 import MonkeyBananaAnimation from '../components/MonkeyBananaAnimation'
 
-const PAGE_TITLE = 'Overview (Estamos desarollando esta sección...)'
+const PAGE_TITLE = 'Overview (We are developing this section...)'
 
 function OverviewPage() {
   return (

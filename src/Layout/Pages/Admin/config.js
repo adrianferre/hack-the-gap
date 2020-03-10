@@ -5,13 +5,13 @@ export default [
   {
     key: 'integrations',
     Icon: ActionAssessment,
-    text: 'Integraciones',
+    text: 'Integrations',
     pathname: '/admin/integrations'
   },
   {
     key: 'users',
     Icon: SocialNotifications,
-    text: 'Usuarios',
+    text: 'Users',
     pathname: '/admin/users'
   }
 ]

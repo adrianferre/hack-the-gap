@@ -24,8 +24,10 @@ function SubMenuItem({ text, selected, pathname, onClick }) {
 }
 
 SubMenuItem.propTypes = {
-  appBar: PropTypes.node,
-  children: PropTypes.node
+  text: PropTypes.node.isRequired,
+  pathname: PropTypes.string.isRequired,
+  selected: PropTypes.bool,
+  onClick: PropTypes.func.isRequired
 }
 
 export default memo(SubMenuItem)

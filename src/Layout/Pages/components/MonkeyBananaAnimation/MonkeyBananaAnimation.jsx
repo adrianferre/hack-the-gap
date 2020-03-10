@@ -17,9 +17,9 @@ const DEFAULT_VELOCITY = 1
 
 const useStyles = makeStyles({
   imgContainer: {
-    marginTop: '5%',
-    marginLeft: '25%',
-    height: '50%',
+    marginTop: 28,
+    marginLeft: 28,
+    height: '40%',
     position: 'relative'
   },
   img: {
@@ -33,6 +33,7 @@ const useStyles = makeStyles({
   },
   head: {
     transformOrigin: `50% 40%`,
+    zIndex: '9',
     animation: ({ velocity = 1 }) => `head ${400 * velocity}ms linear infinite`
   },
   bananas: {

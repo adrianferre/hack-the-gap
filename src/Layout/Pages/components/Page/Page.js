@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import './page.css'
 
-function Page({ appBar, menu, children }) {
+function Page({ appBar, children }) {
   return (
     <div className={'Page-root'}>
       {appBar}

@@ -21,7 +21,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "react/prop-types": 2
+    }
   },
   "browserslist": {
     "production": [
