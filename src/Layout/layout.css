@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Layout {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}

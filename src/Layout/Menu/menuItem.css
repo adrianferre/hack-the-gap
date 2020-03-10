@@ -1,0 +1,13 @@
+.MenuItem-root {
+  width: 56px;
+  min-width: 56px !important;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
+
+.MenuItem-icon {
+  color: white;
+}

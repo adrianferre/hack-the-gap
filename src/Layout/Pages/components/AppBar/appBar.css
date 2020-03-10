@@ -1,0 +1,20 @@
+.AppBar-root {
+  height: 56px;
+  background-color: #0097a7;
+}
+
+.AppBar-light {
+  background-color: #eceff1;
+}
+
+.AppBar-content {
+  height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #607d8b;
+  padding: 0 28px;
+  background-color: white;
+  border-top-left-radius: 12px;
+  display: flex;
+  align-items: center;
+}

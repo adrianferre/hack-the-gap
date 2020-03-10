@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+@keyframes head {
+  0% {
+    transform: translateY(0deg);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0deg);
+  }
+}
+
+@keyframes frontArm {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(7deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes bananas {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,13 @@
+.SubMenuItem-root {
+  width: 100%;
+  min-width: 100% !important;
+  height: 44px;
+  font-weight: bold !important;
+  text-transform: none !important;
+  justify-content: flex-start !important;
+  padding: 0 16px !important;
+}
+
+.SubMenuItem-selected {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
