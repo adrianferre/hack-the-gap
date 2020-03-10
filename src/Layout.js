@@ -1,5 +1,5 @@
 import React from 'react'
-import './Layout.css'
+import './layout.css'
 
 function App() {
   return <div className='Layout'></div>
