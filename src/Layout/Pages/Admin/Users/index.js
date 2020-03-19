@@ -6,14 +6,24 @@ class Users extends React.Component{
   handleClick= position => this.props.onClick(position);
 render(){
   return(
-      <div  className="contenedor">
-      <h1>Fleitas </h1>
-
-      <div className="imagen">
-
-
+    <div class="contenedor">
+      <div className="Rectangle-10">
+         <div  className="Grupos-Usuarios">
+            <span>Grupos & Usuarios</span>
+         </div>
+        <div className="Line-3">
+        </div>
+        <div className="Ipsum-Copy-10">
+        <span>Todos los roles</span>
+        </div>
+        <div className="Shape">
+        </div>
+        <div className="Rectangle-3">
+            <sapn  className="Buscar"> Buscar...</sapn>
+        </div>
       </div>
-      </div>
+
+    </div>
   )
 }
 }

@@ -1,0 +1,78 @@
+.contenedor{
+
+}
+
+.Grupos-Usuarios {
+  margin: 8px;
+  padding: 8px;
+  width: 161px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #607d8b;
+}
+.Rectangle-10 {
+  display: flex;
+  flex-direction: row;
+  width: 1063px;
+  height: 590px;
+  border-radius: 12px;
+  border: solid 0.5px rgba(0, 0, 0, 0.34);
+  background-color: #ffffff;
+}
+.Line-3 {
+  margin: 6px;
+  padding-left: -8px;
+  width: 1px;
+  height: 36px;
+  border: solid 1px #607d8b;
+}
+.Ipsum-Copy-10 {
+  margin:16px;
+  width: 89px;
+  height: 18px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #607d8b;
+}
+.Shape {
+  margin: 22px;
+  width: 7px;
+  height: 5px;
+  background-color: #607d8b;
+}
+.Rectangle-3 {
+  display:flex;
+  align-items: center;
+  margin: 7px;
+  width: 630px;
+  height: 36px;
+  border-radius: 18px;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+.Buscar {
+  margin-top: -20px;
+  padding-left: 40px;
+  margin-top: 80px;
+  width: 122px;
+  height: 25px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.54);
+}
