@@ -5,7 +5,7 @@
 .Grupos-Usuarios {
   margin: 8px;
   padding: 8px;
-  width: 161px;
+  width: 150px;
   height: 20px;
   font-family: Roboto;
   font-size: 19px;
@@ -27,13 +27,13 @@
 }
 .Line-3 {
   margin: 6px;
-  padding-left: -8px;
+  padding-left: -15px;
   width: 1px;
   height: 36px;
   border: solid 1px #607d8b;
 }
 .Ipsum-Copy-10 {
-  margin:16px;
+  margin-top:16px;
   width: 89px;
   height: 18px;
   font-family: Roboto;
@@ -45,12 +45,7 @@
   letter-spacing: normal;
   color: #607d8b;
 }
-.Shape {
-  margin: 22px;
-  width: 7px;
-  height: 5px;
-  background-color: #607d8b;
-}
+
 .Rectangle-3 {
   display:flex;
   align-items: center;
@@ -75,4 +70,15 @@
   line-height: 1.54;
   letter-spacing: normal;
   color: rgba(0, 0, 0, 0.54);
+}
+.flecha{
+  margin-top:15px;
+  padding-left: -10px;
+}
+.Padre-3{
+  padding-left:-10px;
+}
+.contfle{
+  display: flex;
+  align-items: -20px;
 }
