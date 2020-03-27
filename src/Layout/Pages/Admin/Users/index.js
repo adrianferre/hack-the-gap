@@ -4,6 +4,7 @@ import UsersPage from './UsersPage';
 import Imagen from './imagenes/flecha.svg';
 import Imagen1 from './imagenes/descarga.svg';
 import Imagen2 from './imagenes/tacho.svg';
+import Imagen3 from './imagenes/buscador.svg';
 
 class Users extends React.Component {
   handleClick = position => this.props.onClick(position);
@@ -26,12 +27,13 @@ class Users extends React.Component {
             <img src={Imagen} width="20" height="20" />
           </div>
           </div>
-          <div>
-            <input className="Rectangle-3" type="text" name="name" placeholder="Buscar.." />
+          <div className="Rectangle-3" >
+             <img className="Imagen" src={Imagen3} width="25" height="25" />
+            <input type="text" name="name" placeholder="Buscar.." />
           </div>
-          <div>
-          <img src={Imagen1} width="20" height="20" />
-          <img src={Imagen2} width="20" height="20" />
+          <div className="imagenes">
+          <img className="descarga" src={Imagen1} width="25" height="25" />
+          <img src={Imagen2} width="25" height="25" />
           </div>
         </div>
 
