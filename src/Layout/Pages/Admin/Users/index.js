@@ -12,6 +12,7 @@ class Users extends React.Component {
     return (
       <div class="contenedor">
         <div className="Rectangle-10">
+          <div className="Contenedor2">
           <div className="Grupos-Usuarios">
             <span>Grupos & Usuarios</span>
           </div>
@@ -36,8 +37,16 @@ class Users extends React.Component {
           <img src={Imagen2} width="25" height="25" />
           </div>
         </div>
+        <div className="desktop_user_groups"></div>
+        <div className="Rectangle-5">
+        <div className="Rectangle-2"></div>
+        <div className="Rectangle-2-Copy "></div>
+        <div className="Rectangle-2-Copy-copy"></div>
+        </div>
+        </div>
+        </div>
 
-      </div>
+
     )
   }
 }
