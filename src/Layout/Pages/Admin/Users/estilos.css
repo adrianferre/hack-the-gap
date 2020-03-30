@@ -135,9 +135,47 @@ input {
   width: 1062px;
   height: 48px;
   background-color: rgba(224, 224, 224, 0.3);
-  margin-top: 48px;
+  margin-top: 12px;
 }
 .desktop_user_groups {
   height: 1px;
   background-color:#eceff1;
+}
+.img1{
+  margin-top: 16px;
+  margin-left: 10px;
+}
+.img2{
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.img3{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.img4{
+  margin-top: 11px;
+  margin-left: 10px;
+}
+.AlFondo{
+  display: flex;
+ justify-content: flex-end;
+ margin-top: -13px;
+ margin-right: 10px;
+}
+.AlFondo1{
+  display: flex;
+ justify-content: flex-end;
+ margin-top: -16px;
+ margin-right: 10px;
+}
+.AlFondo2{
+  display: flex;
+ justify-content: flex-end;
+ margin-top: -14px;
+ margin-right: 10px;
+}
+.editar3{
+  margin-top: -12px;
+  margin-right: 10px;
 }
