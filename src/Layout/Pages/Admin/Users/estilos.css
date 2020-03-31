@@ -135,7 +135,7 @@ input {
   width: 1062px;
   height: 48px;
   background-color: rgba(224, 224, 224, 0.3);
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .desktop_user_groups {
   height: 1px;
@@ -150,11 +150,11 @@ input {
   margin-left: 10px;
 }
 .img3{
-  margin-top: 15px;
+  margin-top: 13px;
   margin-left: 10px;
 }
 .img4{
-  margin-top: 11px;
+  margin-top: 13px;
   margin-left: 10px;
 }
 .AlFondo{
@@ -178,4 +178,69 @@ input {
 .editar3{
   margin-top: -12px;
   margin-right: 10px;
+}
+.editarante{
+  margin-top: -15px;
+  margin-right: 10px;
+}
+.Grupo-Buenos-Aires {
+  width: 150px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+
+}
+.sera{
+  margin-top: -25px;
+  margin-left: 80px;
+}
+.No-disponible {
+  width: 132px;
+  height: 15px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+}
+.Rectangle-4 {
+  display: flex;
+  align-items: center;
+  width: 132px;
+  height: 32px;
+  border-radius: 25px;
+  background-color: #ff6d00;
+  margin-top: -18px;
+  margin-right: 20px;
+}
+.Rectangle-4-copy1{
+  display: flex;
+  align-items: center;
+  width: 132px;
+  height: 32px;
+  border-radius: 25px;
+  background-color: #00c853;
+  margin-top: -17px;
+  margin-right: 20px;
+}
+.Rectangle-4-copy2{
+  display: flex;
+  align-items: center;
+  width: 132px;
+  height: 32px;
+  border-radius: 25px;
+  background-color: #00c853;
+  margin-top: -20px;
+  margin-right: 20px;
 }
